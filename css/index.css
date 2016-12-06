@@ -1,0 +1,43 @@
+body {
+    font-family: Courier, "Lucida Console", monospace;
+    background-color: white;
+    max-width: 1366px;
+    margin: auto;
+}
+
+.container {
+    float: left;
+    width: 70%;
+    height: 100vh;
+    background-color: red;
+}
+img {
+    display: block;
+    margin: 0 auto;
+}
+aside {
+    display: flex;
+}
+p {
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+}
+
+ul {
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    list-style-type: none;
+    line-height: 2em;
+    font-size: 14pt;
+}
+a {
+   text-decoration: none;
+}
+a:hover {
+    color: white;
+}
