@@ -1,0 +1,53 @@
+body {
+    font-family: Courier, "Lucida Console", monospace;
+    font-size: 2em;
+    background-color: black;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.leftback {
+    width: 70%;
+    background-color: black;
+}
+
+.leftback img {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 750px;
+    height: auto;
+    display: block;
+}
+
+nav {
+    width: 30%;
+    background-color: black;
+}
+
+ul {
+    list-style-type: none;
+    line-height: 1.5em;
+}
+
+.nb {
+    font-size: 1.4rem;
+    color: white;
+}
+a {
+    text-decoration: none;
+    color: #d9d9d9;
+    font-size: 1.1rem;
+}
+
+a:hover {
+    color: white;
+    font-size: 1.18rem;
+}
