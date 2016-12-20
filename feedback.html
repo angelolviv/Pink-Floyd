@@ -4,28 +4,31 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
-    <title>Wish You Were Here</title>
+    <title>Feedback</title>
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/feedback.css">
 </head>
 
 <body>
     <div class="container">
         <div class="leftback">
-            <form>
-        <fieldset>
-            <label for="name" required autofocus="autofocus">Ваше ім'я:</label>
-            <input type="text" id="name">
-            <br>
-            <label for="email" name="e-mail">Ваша е-скринька:</label>
-            <input type="email" id="email">
-            <br>
-            <label for="comment">Відгук чи коментар:</label>
-            <textarea name="comment" id="comment"></textarea>
-        </fieldset>
-        <br>
-        <input type="submit" id="btn-submit">
-    </form>
+            <div class="form">
+                <form>
+                    <label for="name" required autofocus="autofocus">Ваше ім'я:</label>
+                    <br>
+                    <input type="text" id="name">
+                    <br>
+                    <label for="email" name="e-mail">Ваша е-скринька:</label>
+                    <br>
+                    <input type="email" id="email">
+                    <br>
+                    <label for="comment">Відгук чи коментар:</label>
+                    <br>
+                    <textarea name="comment" id="comment"></textarea>
+                    <br>
+                    <input type="submit" id="btn-submit">
+                </form>
+            </div>
         </div>
         <nav>
             <div class="nb">
@@ -42,7 +45,7 @@
         </nav>
     </div>
     <script src="//code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-    <script src="js/form.js"></script>
+    <script src="js/feedback.js"></script>
 </body>
 
 </html>
