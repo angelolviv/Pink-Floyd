@@ -1,7 +1,6 @@
 body {
     font-family: Courier, "Lucida Console", monospace;
-    font-size: 2em;
-    max-width: 1200px;
+    max-width: 1280px;
     margin: 0 auto;
     background-color: black;
 }
@@ -9,40 +8,56 @@ body {
 .leftback {
     float: left;
     display: flex;
+    margin-right: 25px;
     width: 25%;
     height: 100vh;
     flex-direction: column;
     justify-content: space-around;
 }
 
+.leftback img {
+    width: 100%;
+}
+
 header {
-    height: 20%;
-    line-height: 1.2em;
+    display: flex;
+    justify-content: space-around;
+    height: 30px;
+    line-height: 1.5em;
     font-size: 1rem;
-    margin: auto;
+    margin-top: 25px;
 }
 
 article {
-    color: white;
-    font-size: 0.8rem;
+    color: #bfbaba;
+    font-size: 1rem;
 }
 
-/*nav {*/
-/*    width: 30%;*/
-/*    background-color: black;*/
-/*}*/
-
-/*ul {*/
-/*    list-style-type: none;*/
-/*    line-height: 1.5em;*/
-/*}*/
+h1 {
+    font-size: 1.4rem;
+    text-align: right;
+    padding-right: 40px;
+}
+#column {
+  padding: 1em;
+  column-count: 2;
+  column-gap: 1em;
+}
 
 a {
     text-decoration: none;
     color: #d9d9d9;
-    font-size: 1.1rem;
+    font-size: 1rem;
+    font-weight: bold;
 }
 
-a:hover {
+a[href='#'] {
     color: white;
+    
+
+}
+
+a:hover[href$=".html"] {
+    color: white;
+    text-decoration: underline;
 }
