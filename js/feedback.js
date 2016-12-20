@@ -1,16 +1,17 @@
+/* global $*/
 $(function() {
     $('#btn-submit').click(function(e) {
         e.preventDefault();
         $.ajax({
-            url: "https://formspree.io/lsoserg@ukr.net",
+            url: "https://formspree.io/isoserg@ukr.net",
             method: "POST",
             data: {
                 name: $('#name').val(),
                 email: $('#email').val(),
-                comment: $('#comment').val
+                comment: $('#comment').val()
             },
             dataType: "json"
-        }).done(function () {
+        }).done(function() {
             $('form').html('<h1>Дякую за відгук!</h1>');
         });
     });
