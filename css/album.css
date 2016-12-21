@@ -1,0 +1,57 @@
+body {
+    font-family: Courier, "Lucida Console", monospace;
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: rgb(23, 23, 23);
+}
+
+.leftback {
+    float: left;
+    display: flex;
+    margin-right: 25px;
+    width: 25%;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.leftback img {
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    height: 30px;
+    line-height: 1.5em;
+    font-size: 1rem;
+    margin-top: 25px;
+}
+
+article {
+    color: #bfbaba;
+    font-size: 1rem;
+    padding-right: 30px;
+}
+
+#column {
+    padding: 1em;
+    column-count: 2;
+    column-gap: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: #d9d9d9;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+a[href='#'] {
+    color: white;
+}
+
+a:hover[href$=".html"] {
+    color: white;
+    text-decoration: underline;
+}
