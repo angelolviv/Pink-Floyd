@@ -3,8 +3,9 @@ body {
     font-size: 2em;
     max-width: 1280px;
     margin: 0 auto;
-    background-color: rgb(23, 23, 23);
-    color: #e2e2e2;
+    background-image: url("../img/back2.jpg");
+    background-position: center center;
+    background-size: cover;
 }
 
 header {
@@ -17,8 +18,9 @@ header {
 }
 
 article {
+    color: #e2e2e2;
     font-size: 1rem;
-    padding-right: 30px;
+    padding-right: 25px;
 }
 
 #column {
@@ -31,7 +33,7 @@ a {
     text-decoration: none;
     color: #d9d9d9;
     font-size: 1rem;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 a[href='#'] {
