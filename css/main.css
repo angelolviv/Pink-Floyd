@@ -1,5 +1,47 @@
 body {
     font-family: Courier, "Lucida Console", monospace;
-    background-color: yellow;
+    font-size: 2em;
     max-width: 1280px;
+    margin: 0 auto;
+    background-color: rgb(23, 23, 23);
+    color: #e2e2e2;
 }
+
+header {
+    display: flex;
+    justify-content: space-around;
+    line-height: 1.5em;
+    font-size: 1rem;
+    margin-top: 25px;
+    padding-right: 30px;
+}
+
+article {
+    font-size: 1rem;
+    padding-right: 30px;
+}
+
+#column {
+    padding: 1em;
+    column-count: 2;
+    column-gap: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: #d9d9d9;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+a[href='#'] {
+    color: white;
+    font-weight: bolder;
+}
+
+a:hover[href$=".html"] {
+    color: white;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
