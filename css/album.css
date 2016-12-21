@@ -3,6 +3,7 @@ body {
     max-width: 1280px;
     margin: 0 auto;
     background-color: rgb(23, 23, 23);
+    color: #e2e2e2;
 }
 
 .leftback {
@@ -22,14 +23,19 @@ body {
 header {
     display: flex;
     justify-content: space-around;
-    height: 30px;
     line-height: 1.5em;
     font-size: 1rem;
     margin-top: 25px;
+    padding-right: 30px;
+}
+
+h1 {
+    font-size: 1.4rem;
+    text-align: right;
+    padding-right: 40px;
 }
 
 article {
-    color: #bfbaba;
     font-size: 1rem;
     padding-right: 30px;
 }
@@ -49,9 +55,11 @@ a {
 
 a[href='#'] {
     color: white;
+    font-weight: bolder;
 }
 
 a:hover[href$=".html"] {
     color: white;
     text-decoration: underline;
+    font-weight: bolder;
 }
