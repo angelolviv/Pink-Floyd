@@ -1,0 +1,28 @@
+@media screen and (max-width: 750px) {
+    .container {
+        height: 100vh;
+        margin: 0 auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .leftback {
+        width: 60%;
+    }
+    nav {
+        width: 60%;
+    }
+    .nb {
+        display: none;
+    }
+    .menu {
+        display: flex;
+        justify-content: center;
+    }
+    ul {
+        font-size: 1em;
+        line-height: 1em;
+        padding-left: 0;
+        margin: 0 auto;
+    }
+}
