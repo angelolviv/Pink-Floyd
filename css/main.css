@@ -13,7 +13,7 @@ header {
     justify-content: space-around;
     line-height: 1.5em;
     font-size: 1rem;
-    margin-top: 25px;
+    padding-top: 25px;
     padding-right: 30px;
 }
 
@@ -27,9 +27,6 @@ article {
     padding: 1em;
     column-count: 2;
     column-gap: 1em;
-    -webkit-hyphens: auto;
-    -ms-hyphens: auto;
-    hyphens: auto;
 }
 
 a {
