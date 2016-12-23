@@ -6,6 +6,8 @@ body {
     background-image: url("../img/back2.jpg");
     background-position: center center;
     background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header {
@@ -48,4 +50,3 @@ a:hover[href$=".html"] {
     text-decoration: underline;
     font-weight: bolder;
 }
-
