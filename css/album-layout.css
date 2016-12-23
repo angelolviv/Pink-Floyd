@@ -1,0 +1,17 @@
+@media screen and (max-width: 900px) {
+    #column {
+        column-count: 1;
+    }
+    article {
+        font-size: 0.6em;
+    }
+    .leftback {
+        display: none;
+    }
+    .media {
+        flex-wrap: wrap;
+    }
+    header {
+        flex-wrap: wrap;
+    }
+}

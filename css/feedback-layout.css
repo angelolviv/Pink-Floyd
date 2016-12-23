@@ -1,0 +1,20 @@
+@media screen and (max-width: 1160px) {
+    .container {
+        justify-content: center;
+    }
+    .form {
+        order: 3;
+    }
+    nav {
+        padding-left: 30px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .back3 {
+        display: none;
+    }
+    ul {
+        line-height: 1em;
+    }
+}
